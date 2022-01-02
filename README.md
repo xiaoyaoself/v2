@@ -1,6 +1,6 @@
-# V2Ray Heroku
+# V2
 
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
+**若需部署 V2 VLESS，请转到 [vless](https://github.com/xiaoyaoself/v2/tree/vless) 分支。**
 
 ## 概述
 
@@ -10,13 +10,9 @@
 
 ## 部署
 
-### 步骤
 
- 1. Fork 本专案到自己的 GitHub 账户（用户名以 `example` 为例）
- 2. 修改专案名称，注意不要包含 `v2ray` 和 `heroku` 两个关键字（修改后的专案名以 `demo` 为例）
- 3. 修改 `README.md`，将 `bclswl0827/v2ray-heroku` 替换为自己的内容（如 `example/demo`）
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/bclswl0827/v2ray-heroku)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xiaoyaoself/v2)
 
  4. 回到专案首页，点击上面的链接以部署 V2Ray
 
@@ -30,15 +26,11 @@
 | `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
-## 接入 CloudFlare
 
-以下两种方式均可以将应用接入 CloudFlare，从而在一定程度上提升速度。
-
- 1. 为应用绑定域名，并将该域名接入 CloudFlare
- 2. 通过 CloudFlare Workers 反向代理
 
 ## 注意
 
  1. **请勿滥用本专案，类似 Heroku 的免费服务少之又少，且用且珍惜**
- 2. 若使用域名接入 CloudFlare，请考虑启用 TLS 1.3
- 3. AWS 绝大部分 IPv4 地址已被 Twitter 屏蔽
+ 2. 若使用域名接入 Cl，请考虑启用 TLS 1.3
+ 3. AWS 绝大部分 IPv4 地址已
+
